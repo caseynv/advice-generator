@@ -33,8 +33,12 @@ body{
 }
 
 .card{
-  
-  width: 80vw;
+  width: 65vw;
   height: 60vh;
   background-color: hsl(217, 19%, 38%);
+}
+
+.button{
+  height: 60px;
+  background-color: beige;
 }
