@@ -28,6 +28,7 @@ body{
   background-color: hsl(217, 19%, 24%);
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -38,7 +39,21 @@ body{
   background-color: hsl(217, 19%, 38%);
 }
 
+.advice{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.cute-design{
+}
+
 .button{
-  height: 60px;
-  background-color: beige;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border: transparent;
+  border-radius: 50%;
 }
