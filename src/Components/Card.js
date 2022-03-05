@@ -94,13 +94,13 @@ function Card() {
                         
                     </div>
                     <div className='row bfr-btn'>
-                        <div className='col-5'>
+                        <div className='col-5 g-0'>
                             <hr></hr>
                         </div>
-                        <div className='col-1'>
+                        <div className='icon col-1 g-0'>
                             <Icon icon="fluent:pause-16-filled" color="white" width="30" height="30" />
                         </div>
-                        <div className='col-5'>
+                        <div className='col-5 g-0'>
                             <hr></hr>
                         </div>
                     </div>

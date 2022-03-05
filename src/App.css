@@ -52,16 +52,21 @@ body{
 .advice-id{
   font-size: 15px;
   color: #5af65a;
-  padding-left: 10px;
+  padding: 10px;
 }
 
 .advice-body{
   font-weight: 500;
-  font-size: 28px;
+  font-size: 22px;
   color: white;
+  text-align: center;
 }
+
+.icon{
+  text-align: center;
+}
+
 .bfr-btn{
-  justify-items: center;
   justify-content: center;
 }
 
@@ -74,4 +79,10 @@ body{
   position: absolute;
   top: 93.5%;
   left: 45%;
+}
+
+@media screen and (max-width: 450px) {
+  .button{
+    left: 40%;
+  }
 }
