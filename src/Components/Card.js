@@ -47,8 +47,6 @@ function Card() {
     team(arr)*/
     
     const [advices, setAdvices] = useState("");
-    const [loading, setLoading] = useState([]);
-    const [error, setError] = useState([]);
 
     
         async function apiAdvice() {
@@ -60,10 +58,7 @@ function Card() {
         })
         .catch((error) => {
             console.error("Error fetching data: ", error)
-            setError(error)
-        })
-        .finally(() => {
-            setLoading(false)
+            
         })
     };
     
